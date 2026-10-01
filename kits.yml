@@ -1,0 +1,117 @@
+kits:
+  warrior:
+    name: '&cWarrior'
+    material: 'IRON_SWORD'
+    price: 0
+    permission: ''
+    cooldown: 5
+    items:
+      - 'IRON_SWORD'
+      - 'BREAD:0'
+      - 'BREAD:0'
+      - 'APPLE:0'
+    armor:
+      helmet: 'IRON_HELMET'
+      chestplate: 'IRON_CHESTPLATE'
+      leggings: 'IRON_LEGGINGS'
+      boots: 'IRON_BOOTS'
+    effects:
+      - 'SPEED:0:99999'
+    ability:
+      type: 'DASH'
+      material: 'FEATHER'
+      name: '&bDash'
+      cooldown: 8
+
+  archer:
+    name: '&aArcher'
+    material: 'BOW'
+    price: 500
+    permission: ''
+    cooldown: 8
+    items:
+      - 'BOW'
+      - 'ARROW:0:32'
+      - 'STONE_SWORD'
+      - 'COOKED_BEEF:0'
+    armor:
+      helmet: 'LEATHER_HELMET'
+      chestplate: 'LEATHER_CHESTPLATE'
+      leggings: 'LEATHER_LEGGINGS'
+      boots: 'LEATHER_BOOTS'
+    ability:
+      type: 'GRAPPLE'
+      material: 'STRING'
+      name: '&eGrapple'
+      cooldown: 12
+
+  tank:
+    name: '&9Tank'
+    material: 'IRON_CHESTPLATE'
+    price: 750
+    permission: ''
+    cooldown: 10
+    items:
+      - 'IRON_SWORD'
+      - 'GOLDEN_APPLE:0'
+      - 'COOKED_BEEF:0'
+      - 'COOKED_BEEF:0'
+    armor:
+      helmet: 'IRON_HELMET'
+      chestplate: 'DIAMOND_CHESTPLATE'
+      leggings: 'IRON_LEGGINGS'
+      boots: 'IRON_BOOTS'
+    effects:
+      - 'DAMAGE_RESISTANCE:0:99999'
+    ability:
+      type: 'HEAL'
+      material: 'GOLD_NUGGET'
+      name: '&aRigen'
+      cooldown: 20
+
+  pyro:
+    name: '&6Pyro'
+    material: 'FLINT_AND_STEEL'
+    price: 1000
+    permission: ''
+    cooldown: 12
+    items:
+      - 'IRON_SWORD'
+      - 'BOW'
+      - 'ARROW:0:16'
+      - 'FLINT_AND_STEEL'
+      - 'COOKED_BEEF:0'
+    armor:
+      helmet: 'GOLD_HELMET'
+      chestplate: 'CHAINMAIL_CHESTPLATE'
+      leggings: 'CHAINMAIL_LEGGINGS'
+      boots: 'GOLD_BOOTS'
+    ability:
+      type: 'FIREBALL'
+      material: 'FIRE_CHARGE'
+      name: '&cFireball'
+      cooldown: 14
+
+  ninja:
+    name: '&5Ninja'
+    material: 'ENDER_PEARL'
+    price: 1500
+    permission: ''
+    cooldown: 15
+    items:
+      - 'STONE_SWORD'
+      - 'ENDER_PEARL:0:2'
+      - 'COOKED_BEEF:0'
+      - 'COOKED_BEEF:0'
+    armor:
+      helmet: 'LEATHER_HELMET'
+      chestplate: 'LEATHER_CHESTPLATE'
+      leggings: 'LEATHER_LEGGINGS'
+      boots: 'LEATHER_BOOTS'
+    effects:
+      - 'SPEED:1:99999'
+    ability:
+      type: 'BLINK'
+      material: 'ENDER_EYE'
+      name: '&dBlink'
+      cooldown: 18

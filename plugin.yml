@@ -1,0 +1,41 @@
+name: XeonKitPvP
+main: it.maurof00.xeonkitpvp.KitPvPCore
+version: 1.0.0
+author: maurof00
+description: Complete KitPvP core inspired by modern competitive KitPvP networks.
+softdepend: []
+commands:
+  kit:
+    description: Opens the KitPvP kit selector or selects a kit.
+    usage: /kit [name]
+    aliases: [kits]
+  kitpvp:
+    description: Main XeonKitPvP command.
+    usage: /kitpvp <help|spawn|stats|top|bounty|gang|setspawn|arena|reload|debug>
+    aliases: [kp, kpcore]
+  spawn:
+    description: Teleports you to the KitPvP spawn.
+    usage: /spawn
+  stats:
+    description: Shows KitPvP statistics.
+    usage: /stats [player]
+  top:
+    description: Shows KitPvP leaderboards.
+    usage: /top [kills|coins|streak]
+  bounty:
+    description: Places or views a bounty.
+    usage: /bounty <player> [amount]
+  gang:
+    description: Manages KitPvP gangs.
+    usage: /gang <create|invite|join|leave|info|disband>
+    aliases: [clan]
+permissions:
+  kitpvp.admin:
+    description: Full XeonKitPvP administration access.
+    default: op
+  kitpvp.bypass:
+    description: Bypasses KitPvP combat protections.
+    default: op
+  kitpvp.kit.*:
+    description: Access to all kits.
+    default: op

@@ -1,0 +1,87 @@
+core:
+  debug: false
+  language: it
+  save-interval-seconds: 30
+
+game:
+  enabled-worlds:
+    - kitpvp
+  allow-pvp: true
+  block-build: false
+  block-break: false
+  prevent-void-death: true
+  no-item-drops: true
+  no-hunger: true
+  soup-heal-half-hearts: 6
+  spawn-protection-radius: 10.0
+  combat-tag-seconds: 15
+  respawn-delay-ticks: 2
+
+spawn:
+  world: kitpvp
+  x: 0.5
+  y: 100.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+
+scoreboard:
+  enabled: true
+  refresh-ticks: 20
+  all-worlds: true
+  title: '&b&lKITPVP'
+
+economy:
+  join-coins: 250
+  kill-coins: 25
+  streak-coins: 10
+  xp-per-kill: 25
+  xp-per-death: 5
+
+leveling:
+  enabled: true
+  max-level: 100
+  base-xp: 100
+  xp-per-level: 75
+
+killstreak:
+  enabled: true
+  announcements: true
+  rewards:
+    '3':
+      coins: 25
+      commands: []
+    '5':
+      coins: 75
+      commands:
+        - 'give %player% golden_apple 1'
+    '10':
+      coins: 200
+      commands: []
+
+menu:
+  size: 54
+  filler: 'STAINED_GLASS_PANE:15'
+  close-on-select: true
+  show-locked-kits: true
+  items:
+    kits:
+      material: 'COMPASS'
+      name: '&bSelettore Kit'
+    stats:
+      material: 'NETHER_STAR'
+      name: '&eProfilo'
+
+bounty:
+  enabled: true
+  min: 50
+  max: 100000
+  killer-reward-percent: 100
+
+gang:
+  enabled: true
+  friendly-fire: false
+  max-members: 15
+
+messages:
+  prefix: '&8[&bXeon&3KitPvP&8] &r'
